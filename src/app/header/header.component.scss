@@ -26,6 +26,11 @@
     margin-right: 35px;
 }
 
+a {
+    align-items: center;
+    display: flex;
+}
+
 p {
     color: $yellow-cray;
     font: 50px $grand-hotel;
@@ -44,12 +49,14 @@ p {
 }
 
 .fa-search {
+    color: $dark-green;
     font-size: 42px;
 }
 
 .circle-plus {
     background-color: $green-pan;
     border-radius: 50px;
+    cursor: pointer;
     padding: 16px 20px;
 
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
