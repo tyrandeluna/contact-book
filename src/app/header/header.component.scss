@@ -1,0 +1,60 @@
+@import '../sass/variables.scss';
+
+.header-container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 950px;
+}
+
+.header {
+    align-items: center;
+    background: $cerise;
+    border-radius: 30px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 80px;
+    justify-content: center;
+    width: 840px;
+}
+
+.fa-phone-square {
+    color: $yellow-cray;
+    font-size: 40px;
+    margin-right: 35px;
+}
+
+p {
+    color: $yellow-cray;
+    font: 50px $grand-hotel;
+    margin-right: 60px;
+}
+
+.search-input {
+    border: none;
+    border-radius: 10px;
+    color: $dark-green;
+    font: 20px $roboto;
+    height: 45px;
+    margin-right: 16px;
+    padding: 10px;
+    width: 400px;
+}
+
+.fa-search {
+    font-size: 42px;
+}
+
+.circle-plus {
+    background-color: $green-pan;
+    border-radius: 50px;
+    padding: 16px 20px;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    .fa-plus {
+        color: $light;
+        font-size: 35px;
+    }
+}
